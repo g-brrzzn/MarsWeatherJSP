@@ -27,11 +27,11 @@
       <version>5.0.0</version> <!-- Versão recomendada para projetos Jakarta EE -->
       <scope>provided</scope> <!-- Indica que o contêiner de aplicação fornecerá essa API -->
     </dependency>
-
-
-
-
-
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
 
 
   </dependencies>

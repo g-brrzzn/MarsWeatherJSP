@@ -10,6 +10,7 @@
     <h1>Mars Weather Data</h1>
     <%
         Map<String, Object> weatherData = (Map<String, Object>) request.getAttribute("weatherData");
+
         if (weatherData != null) {
             for (String sol : (List<String>) weatherData.get("sol_keys")) {
                 Map<String, Object> solData = (Map<String, Object>) weatherData.get(sol);

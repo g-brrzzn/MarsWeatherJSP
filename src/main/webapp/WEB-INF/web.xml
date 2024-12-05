@@ -10,11 +10,6 @@
     <servlet-class>com.mars.weather.MarsWeatherServlet</servlet-class>
   </servlet>
 
-  <servlet-mapping>
-    <servlet-name>MarsWeatherServlet</servlet-name>
-    <url-pattern>/mars-weather</url-pattern>
-  </servlet-mapping>
-
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
